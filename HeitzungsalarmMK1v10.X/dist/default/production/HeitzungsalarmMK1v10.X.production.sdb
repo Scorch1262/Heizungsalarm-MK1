@@ -1,0 +1,136 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F1330 ]
+[d frameptr 4065 ]
+"8 G:\Cuy'val Dar Datenbank\Projekte\Offen\Heizungsalarm MK1 [U]\Programme (c)\HeitzungsalarmMK1v10.X/main.h
+[v _start_setup start_setup `(v  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"12 G:\Cuy'val Dar Datenbank\Projekte\Offen\Heizungsalarm MK1 [U]\Programme (c)\HeitzungsalarmMK1v10.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"52 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f1330.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"304
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S39 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"357
+[s S48 . 1 `uc 1 PWM0 1 0 :1:0 
+`uc 1 PWM1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 INT3 1 0 :1:3 
+`uc 1 PWM2 1 0 :1:4 
+`uc 1 PWM3 1 0 :1:5 
+`uc 1 PWM4 1 0 :1:6 
+`uc 1 PWM5 1 0 :1:7 
+]
+[s S57 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 KBI2 1 0 :1:2 
+`uc 1 KBI3 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S64 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CMP2 1 0 :1:2 
+`uc 1 CMP1 1 0 :1:3 
+]
+[s S68 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1OSO 1 0 :1:2 
+`uc 1 T1OSI 1 0 :1:3 
+]
+[s S72 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1CKI 1 0 :1:2 
+]
+[s S75 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S78 . 1 `S39 1 . 1 0 `S48 1 . 1 0 `S57 1 . 1 0 `S64 1 . 1 0 `S68 1 . 1 0 `S72 1 . 1 0 `S75 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES78  1 e 1 @3969 ]
+[s S126 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"883
+[s S135 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S144 . 1 `S126 1 . 1 0 `S135 1 . 1 0 ]
+[v _LATAbits LATAbits `VES144  1 e 1 @3977 ]
+"1239
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1461
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1937
+[v _PIE1 PIE1 `VEuc  1 e 1 @3997 ]
+"2008
+[v _PIR1 PIR1 `VEuc  1 e 1 @3998 ]
+"2150
+[v _PIE2 PIE2 `VEuc  1 e 1 @4000 ]
+"2185
+[v _PIR2 PIR2 `VEuc  1 e 1 @4001 ]
+"2950
+[v _CMCON CMCON `VEuc  1 e 1 @4020 ]
+"3358
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"3699
+[v _RCON RCON `VEuc  1 e 1 @4048 ]
+"3925
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"4366
+[v _INTCON3 INTCON3 `VEuc  1 e 1 @4080 ]
+"4478
+[v _INTCON2 INTCON2 `VEuc  1 e 1 @4081 ]
+"4565
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+"12 G:\Cuy'val Dar Datenbank\Projekte\Offen\Heizungsalarm MK1 [U]\Programme (c)\HeitzungsalarmMK1v10.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"28
+} 0
+"8 G:\Cuy'val Dar Datenbank\Projekte\Offen\Heizungsalarm MK1 [U]\Programme (c)\HeitzungsalarmMK1v10.X/main.h
+[v _start_setup start_setup `(v  1 e 1 0 ]
+{
+"57
+} 0
